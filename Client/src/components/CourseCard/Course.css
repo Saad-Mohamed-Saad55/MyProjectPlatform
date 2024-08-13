@@ -1,0 +1,114 @@
+.courses-container {
+    flex-grow: 1;
+    padding-top: 3rem;
+    background-color: #f8f8f8;
+}
+
+.courser-container.dark {
+    background-color: #242c30;
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-block: 20px;
+}
+
+.courses-card {
+    overflow: hidden;
+    transition: 0.3s;
+    width: 1fr;
+    min-width: 300px;
+    max-width: 400px; 
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.dark .courses-card {
+    background-color: #242c30;
+}
+
+.courses-card > .image {
+    width: 100%;
+    height: 250px; 
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.courses-card .content {
+    padding: 20px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.courses-card > h3 {
+    font-weight: 700;
+    font-size: 16px; /* Adjust the font size as needed */
+    margin: 5px 0;
+}
+.courses-card h4 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.courses-card .flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-group {
+    display: flex;
+    align-items: center;
+    margin-top: auto; /* Pushes the info group to the bottom */
+}
+.price {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.price img {
+    width: 20px;
+}
+
+.info-group > img {
+    height: 20px;
+    margin-right: 5px; /* Adjust the margin as needed */
+}
+
+.info-group > p {
+    margin: 3px 0;
+    font-size: 14px;
+    color: #2B283A;
+}
+
+.dark .info-group > p {
+    color: white
+}
+
+.courses-card:hover .image img {
+    scale : 1.05;
+    transform: rotate(2deg);
+    filter: brightness(1.25);
+}
+
+.courses-card:hover {
+    transform: translateY(-5px);
+}
+
+.btn.join-meeting {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  

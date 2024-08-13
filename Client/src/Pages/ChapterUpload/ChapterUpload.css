@@ -1,0 +1,14 @@
+.btn.start-meeting, .btn.join-meeting {
+    width: fit-content;
+    margin-inline: auto;
+    margin-block:2rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.course-view h3 {
+    margin-top: 2rem;
+}

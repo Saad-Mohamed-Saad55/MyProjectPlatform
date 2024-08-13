@@ -1,0 +1,48 @@
+.exam-container {
+    /* Add your component-specific styles here */
+    text-align: center;
+  max-width: 600px;
+  width: 100%;
+  margin: 2rem auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .exam-title {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+  }
+  
+  .question {
+    margin-bottom: 20px;
+  }
+  
+  .options-list {
+    padding: 0;
+  }
+  
+  .option {
+    margin-bottom: 10px;
+  }
+  
+  .correct-answer {
+    font-weight: bold;
+    color: green;
+  }
+  
+  .edit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
